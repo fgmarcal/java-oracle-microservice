@@ -1,0 +1,20 @@
+//CHANGE THIS FILE NAME TO application.properties
+spring.application.name=microservice
+spring.mail.username=<ADD YOUR OCI USERNAME>
+spring.mail.password=<ADD YOUR OCI PASSWORD>
+spring.mail.from=<ADD SENDER EMAIL>
+
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+
+//SMTP ZONE - CHECK CLOUD ZONE
+spring.mail.properties.mail.smtp.ssl.trust=smtp.email.sa-saopaulo-1.oci.oraclecloud.com
+spring.mail.host=smtp.email.sa-saopaulo-1.oci.oraclecloud.com
+
+spring.mail.port=587
+
+bucket.name=<YOUR BUCKET NAME>
+bucket.namespace=<YOUR NAMESPACE>
+
+email.list=<ADD EMAILS SEPARATED BY COMA>
